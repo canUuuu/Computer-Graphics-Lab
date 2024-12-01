@@ -1,0 +1,10 @@
+^D:\QI\ASSIGNMENTS\COMPUTER GRAPHICS\LAB2\MODULE\CMAKELISTS.TXT
+setlocal
+D:\app\CMake\bin\cmake.exe "-SD:/qi/assignments/Computer Graphics/lab2/Module" "-BD:/qi/assignments/Computer Graphics/lab2/Module/build" --check-stamp-file "D:/qi/assignments/Computer Graphics/lab2/Module/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+D:/qi/assignments/Computer Graphics/lab2/Module/build/CMakeFiles/test.dir
+D:/qi/assignments/Computer Graphics/lab2/Module/build/CMakeFiles/ALL_BUILD.dir
+D:/qi/assignments/Computer Graphics/lab2/Module/build/CMakeFiles/ZERO_CHECK.dir

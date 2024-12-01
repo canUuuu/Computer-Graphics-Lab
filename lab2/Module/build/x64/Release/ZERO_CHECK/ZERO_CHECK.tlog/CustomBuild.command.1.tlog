@@ -1,0 +1,10 @@
+^D:\QI\ASSIGNMENTS\COMPUTER GRAPHICS\LAB2\MODULE\BUILD\CMAKEFILES\6AC6A2010DAFF4A1CF73C44D8C43CA8B\GENERATE.STAMP.RULE
+setlocal
+D:\app\CMake\bin\cmake.exe "-SD:/qi/assignments/Computer Graphics/lab2/Module" "-BD:/qi/assignments/Computer Graphics/lab2/Module/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/qi/assignments/Computer Graphics/lab2/Module/build/test.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
