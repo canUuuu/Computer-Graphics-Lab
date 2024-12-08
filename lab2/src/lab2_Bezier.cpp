@@ -75,7 +75,7 @@ void userEventAction(int key) {
 			break;
 		}
 		if (MyWorld.pickedObjectId == -1) {
-			std::printf("Error:U've not choosen a car!\n");
+			std::printf("Error:U've not choosen a point!\n");
 			break;
 		}
 		std::printf("Auto Moving No.%d\n", MyWorld.pickedObjectId);
